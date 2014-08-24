@@ -3,6 +3,7 @@ package org.droidplanner.core.helpers.units;
 import java.util.Locale;
 
 public class Length {
+	private static UnitSet currentUnit;
 	private double lengthInMeters;
 
 	public Length(double lengthInMeters) {
